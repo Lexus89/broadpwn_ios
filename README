@@ -1,6 +1,4 @@
-Attaching exploit for this issue. The exploit gains code execution on the Wi-Fi firmware on the iPhone 7. The password for the archive is "rrm_exploit".
-
-The exploit has been tested against the Wi-Fi firmware as present on iOS 10.2 (14C92), but should work on all versions of iOS up to 10.3.3 (included). However, some symbols might need to be adjusted for different versions of iOS, see "exploit/symbols.py" for more information.
+The exploit gains code execution on the Wi-Fi firmware on the iPhone 7. The exploit has been tested against the Wi-Fi firmware as present on iOS 10.2 (14C92), but should work on all versions of iOS up to 10.3.3 (included). However, some symbols might need to be adjusted for different versions of iOS, see "exploit/symbols.py" for more information.
 
 Upon successful execution of the exploit, a backdoor is inserted into the firmware, allowing remote read/write commands to be issued to the firmware via crafted action frames (thus allowing easy remote control over the Wi-Fi chip). 
 
